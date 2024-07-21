@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(248, 248, 225);
 }
 
 .App-logo {
@@ -23,10 +24,416 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.head{
+  display: inline;
+  background-color: red;
+  width: 100%;
+  height: 20%;
+  padding: 20px;
+  padding-left: 30PX;
+  
+}
+.h2{
+  display: inline;
+  font-size: 2em;
+  margin: 20px;
+  margin-left: 170px;
+  margin-right: 40px;
+  color: white;
+  
+}
+.h4{
+  display: inline;
+  margin: 10px;
+  color: white;
+}
+pre{
+  font-size: 1.6em;
+  margin-left: 10px;
+  margin-top: 0;
+  color: #6c6e70;
+}
+.elanbtn{
+  font-size: 1.1em;
+  margin-left: 14px;
+  
+  background-color: red;
+  font-weight: bold;
+  border: 0px;
+  color: white;
+}
+.elanAddbtn{
+  font-size: 1.5em;
+  
+ 
+  background-color: rgb(125, 205, 6);
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+ 
+}
+.favoritiesImg{
+  width: 35px;
+  margin-top: 10px;
+  margin-left: 200px;
+  object-fit: cover;
+  position:absolute;
+  align-items:end ;
+}
+
+
+.SifirlaBtn{
+  font-size: 1.2em;
+  border: 0;
+  background-color: rgb(248, 248, 225);
+  margin: 15px;
+}
+.DahaCoxBtn{
+  font-size: 1.2em;
+  border: 0;
+  background-color: rgb(248, 248, 225);
+  color: red;
+  margin: 15px;
+}
+.ElanGosderBtn{
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5em;
+  border: 0;
+  background-color:red;
+  color: white;
+  border-radius: 10px;
+}
+/* .navTop{
+  width: 95%;
+  height: 40vh;
+  padding: 5px;
+  
+}
+.topNav{
+  width: 100%;
+  height: 30%;
+  position: relative;
+} */
+.selectCar{
+  width: 270px;
+  height: 40px;
+  font-size: 1em;
+  padding: 5px;
+  display: inline;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.selectItemCar{
+  width: 130px;
+  height: 40px;
+  font-size: 1em;
+  padding: 5px;
+ 
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.moneySelect{
+  width: 70px;
+  height: 43px;
+  font-size: 1em;
+  display: inline;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.KBbtn{
+  width: 70px;
+  height: 40px;
+  font-size: 1em;
+  display: inline;
+  margin: 18px;
+  margin-top: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.red {
+  background-color: red;
+  font-size: 1em;
+  padding:8px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.inputQiymet{
+  width: 130px;
+  height: 30px;
+  font-size: 1em;
+  padding: 5px;
+  display: inline;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+.maks{
+  border-radius:0px 5px 5px 0px;
+  width: 110px;
+  margin-left: -5px;
+  
+  
+}
+
+.sectionBtn{
+  font-size: 1em;
+  padding:8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.carDiv{
+  display: inline;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  text-align: LEFT;
+ 
+}
+.carDiv1{
+  display: inline-block;
+  width: 1250px;
+}
+
 
 .App-link {
   color: #61dafb;
 }
+
+.notFount{
+  font-size: 3em;
+  color: red;
+}
+.carLi{
+  display:inline-block;
+  list-style: "";
+  text-align:left;
+  width:255px;
+  height:350px;
+  margin:20px;
+  margin-right: -10px;
+  border-radius: 15px;
+  background-color:white;
+}
+.sectionAdd{
+  padding: 10px;
+  display: inline;
+  text-align: center;
+}
+.sectionAdd div{
+  padding: 10px;
+  
+  text-align: left;
+  margin-left: 100px;
+}
+
+.sectionAdd>label{
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: right;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  margin-left: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  background-color: rgb(181, 217, 217);
+  margin-top: 10px;
+  padding: 20px;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+label {
+  margin-top: 20px;
+  margin-bottom: -15px; 
+}
+.item>input{
+  margin-top: 30px;
+  height: 35px;
+  border-radius: 5px;
+}
+.radioBtn, label, input{
+  display: inline-flex;
+}
+.radioBtn div{
+  margin: 20px;
+}
+
+.addBtn{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  background-color:yellowgreen;
+  color:white;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-top:2px;
+}
+
+
+.h2:hover{
+  cursor: pointer;
+  color:lightgray;
+}
+
+.h4:hover{
+  cursor: pointer;
+  color:lightgray;
+}
+
+.elanbtn:hover{
+  cursor: pointer;
+  color:lightgray;
+}
+
+.elanAddbtn{
+  font-size: 1.5em;
+  margin-left: 50px;
+  margin-right: 170px;
+  background-color: rgb(125, 205, 6);
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+}
+
+.elanAddbtn:hover{
+  background-color: rgb(87, 125, 6) ;
+  cursor: pointer;
+}
+
+.FavoritiesBtn{
+  display: inline;
+}
+.car-details{
+margin-left: 38%;
+  font-size: 1.8em;
+ text-wrap:balance;
+ text-align:left;
+}
+
+.FavoritiesBtn:hover{
+  color:lightgray;
+  cursor: pointer;
+}
+.link-without-underline {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.car-image {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 70px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail.active {
+  opacity: 1;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.slider-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-button {
+  background-color: #9a9b9d;
+  color: #fff;
+  border: none;
+  padding: 16px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider-button:hover {
+  background-color: #81bcfb;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +443,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
